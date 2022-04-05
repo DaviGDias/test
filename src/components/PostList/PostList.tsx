@@ -1,7 +1,7 @@
 import React from 'react'
 import { BlogPost } from '../../data/@types/BologoPostInterface'
 import styles from './PostList.module.css'
-import Link from 'next/Link'
+import Link from 'next/link'
 
 function PostList({ posts }: { posts: BlogPost[] }) {
     return (
